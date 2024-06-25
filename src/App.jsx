@@ -5,6 +5,7 @@ import Content from './components/Content';
 import { useState } from 'react';
 import Alarma from './components/Alarma';
 import LoginForm from './components/LoginForm';
+import Registro from './components/Registro';
 
 function App() {
 
@@ -18,7 +19,8 @@ function App() {
             {/* <Content lang={lang} setLang={setLang} />
             <Alarma /> */}
 
-            <LoginForm email_correcte="abc@def.com" password_correcte="1234" />
+            {/* <LoginForm email_correcte="abc@def.com" password_correcte="1234" /> */}
+            <Registro/>
             
             <Footer idioma={lang}  />
         </>
